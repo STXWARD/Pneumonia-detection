@@ -27,7 +27,7 @@ def load_model():
     """Load the trained model"""
     try:
         # Load model - make sure this file is in the same folder!
-        model = tf.keras.models.load_model("pneumonia_detection_model.keras")
+        model = tf.keras.models.load_model("model/pneumonia_detection_model.h5")
         return model
     except Exception as e:
         st.error(f"Error loading model: {e}")
