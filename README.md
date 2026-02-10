@@ -8,6 +8,8 @@ Built with:
 - Grad-CAM for explainability
 
 ---
+## 🖼 Demo
+![Demo](demo.png)
 
 ## 🚀 Live Demo
 🔗 https://pneumonia-detection-stewardjacob.streamlit.app/
@@ -20,7 +22,7 @@ Built with:
 - Confidence score
 - Grad-CAM heatmap (model explainability)
 - Clean medical UI
-
+ 
 ---
 
 ## 📊 Model
