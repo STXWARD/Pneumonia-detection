@@ -120,7 +120,7 @@ def overlay_heatmap(img, heatmap, alpha=0.6): # Increased alpha for better visib
 
 uploaded_file = st.file_uploader(
     "Upload Chest X-Ray",
-    type=["jpg", "jpeg", "png"]
+    type=["jpg", "jpeg", "png"] 
 )
 
 threshold = st.slider(
